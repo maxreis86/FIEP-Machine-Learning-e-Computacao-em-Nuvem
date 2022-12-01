@@ -40,3 +40,28 @@ Você receberá um crédito de 200 dólares para produtos e serviços do Azure
 19. Virtual machine size: select from all options
 20. Name: Standard_A1_v2
 21. Depois clique em "Create"
+22. Após iniciar a clique em "Terminal"
+23. Digite o comando: git clone https://github.com/maxreis86/FIEP-Machine-Learning-e-Computacao-em-Nuvem.git
+24. Clique novamente em "Compute" no canto inferior esquerdo
+25. Em "Applications", clique em JupyterLab
+24. Na aba "File Browser" abra a pasta FIEP-Machine-Learning-e-Computacao-em-Nuvem e depois aula_01_titanic_h2o_automl
+25. Execute os códigos nos arquivos 1_Data_Prep.ipynb, 2_Fast_Machine_Learning.ipynb e 3_Explaining_Model.ipynb. Para executar esses códigos escolha o Kernel "Python 3.8 - AzureML" no canto superior direito da tela
+
+
+
+
+git init -b main
+git config --global --add safe.directory '*'
+git config credential.helper store
+git add . && git commit -m "initial commit"
+git remote add origin git@github.com:maxreis86/new-repo.git
+git remote set-url origin https://github.com/maxreis86/new-repo.git
+git push -u origin main
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:maxreis86/new-repo-c.git
+git push -u origin master
