@@ -10,7 +10,7 @@ import os
 os.system('apt install -y openjdk-8-jdk')
 
 app = Flask(__name__)
-BestModelId = 'h2o_champion_titanic_propensity_survive_v1_20221127_154332.zip'
+BestModelId = 'h2o_champion_titanic_propensity_survive_v1_20221201_193127.zip'
 
 @app.route('/')
 def home():
