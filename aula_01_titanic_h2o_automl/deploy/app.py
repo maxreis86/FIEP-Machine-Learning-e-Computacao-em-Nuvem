@@ -10,7 +10,7 @@ import os
 os.system('apt install -y openjdk-8-jdk')
 
 app = Flask(__name__)
-BestModelId = 'h2o_champion_titanic_propensity_survive_v1_20221201_193127.zip'
+BestModelId = 'GBM_grid_1_AutoML_1_20221202_02127_model_1.zip'
 
 @app.route('/')
 def home():
@@ -18,7 +18,7 @@ def home():
 
 @app.route('/predict',methods = ['POST'])
 def predict():
-    
+    print(request.form.to_dict())
     dataprep_df  = pd.DataFrame(request.form.to_dict(), index=[0])
     
     #criar o prefix para a variavel cabine (A, B, C, D, ou E)
