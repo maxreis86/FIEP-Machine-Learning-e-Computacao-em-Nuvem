@@ -46,3 +46,8 @@ Você receberá um crédito de 200 dólares para produtos e serviços do Azure
 25. Em "Applications", clique em JupyterLab
 24. Na aba "File Browser" abra a pasta FIEP-Machine-Learning-e-Computacao-em-Nuvem e depois aula_01_titanic_h2o_automl
 25. Execute os códigos nos arquivos 1_Data_Prep.ipynb, 2_Fast_Machine_Learning.ipynb e 3_Explaining_Model.ipynb. Para executar esses códigos escolha o Kernel "Python 3.8 - AzureML" no canto superior direito da tela
+
+## CPU vs GPU
+1. [H2O AutoML](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-h2o-automl)
+2. [Keras](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-keras)
+3. [PyTorch](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-pytorch)
