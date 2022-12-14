@@ -51,3 +51,14 @@ Você receberá um crédito de 200 dólares para produtos e serviços do Azure
 1. [H2O AutoML](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-h2o-automl)
 2. [Keras](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-keras)
 3. [PyTorch](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-pytorch)
+
+
+# Avaliação Final
+
+A nota final será composta pelas três atividades abaixo que devem ser entreges até o dia **28/12**
+
+1. Executar os códigos 1_Data_Prep.ipynb, 2_Fast_Machine_Learning.ipynb e 3_Explaining_Model.ipynb disponíveis [aqui](https://github.com/maxreis86/FIEP-Machine-Learning-e-Computacao-em-Nuvem/tree/main/aula_02_titanic_kmeans). Fazer as análises dos outputs gerados no código 3_Explaining_Model.ipynb. Criar um documento no Google Docs e escrever as características principais de cada Cluster. Pode incluir as gráficos utilizados na sua análise. Para ajudar no entendimento, veja o vídeo dessa aula nesse link [aqui](https://sesisenaiprorg-my.sharepoint.com/personal/maxuel_reis3819_sesisenaipr_org_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmaxuel%5Freis3819%5Fsesisenaipr%5Forg%5Fbr%2FDocuments%2FRecordings%2FFIEP%2D20221202%5F210226%2DGrava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o%2Emp4&ga=1)
+2. Fazer o deploy do código [cluster_model.py](https://github.com/maxreis86/FIEP-Machine-Learning-e-Computacao-em-Nuvem/blob/main/aula_02_titanic_kmeans/kmeans_function/cluster_model.py) usando Azure Functions conforme explicado na aula do dia 08/12 disponível [aqui](https://sesisenaiprorg-my.sharepoint.com/personal/maxuel_reis3819_sesisenaipr_org_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmaxuel%5Freis3819%5Fsesisenaipr%5Forg%5Fbr%2FDocuments%2FRecordings%2FFIEP%20Machine%20Learning%20e%20Computacao%20em%20Nuvem%2D20221208%5F211336%2DGrava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o%2Emp4&ga=1). Incluir o print do Portal Azure mostrando a função implementada com sucesso.
+3. Criar um fork, executar e realizar um submit na competição [Digit Recognizer](https://www.kaggle.com/competitions/digit-recognizer) do Kaggle para os códigos [FIEP - Digit Recognizer c/ H2O AutoML](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-h2o-automl), [FIEP - Digit Recognizer c/ Keras](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-keras) e [FIEP - Digit Recognizer c/ PyTorch](https://www.kaggle.com/code/maxreis/fiep-digit-recognizer-c-pytorch) conforme a explicação da aula disponível [aqui](https://sesisenaiprorg-my.sharepoint.com/:v:/g/personal/maxuel_reis3819_sesisenaipr_org_br/EZ8C7god7r9GidE6kh6BTpgByjPbFXZbKxMicaFKkmbP-w?e=r4pNhy). Incluir os links dois seus três código no mesmo documento do Google Docs usado nas atividades anteriores.
+
+Me enviem o documento por e-mail (maxreis86@gmail.com) ou por Whatsapp.
